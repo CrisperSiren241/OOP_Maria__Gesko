@@ -1,0 +1,15 @@
+D:\BSTU\Программы\OOP_3_1\obj\Debug\net6.0\OOP_3_1.csproj.AssemblyReference.cache
+D:\BSTU\Программы\OOP_3_1\obj\Debug\net6.0\OOP_3_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\BSTU\Программы\OOP_3_1\obj\Debug\net6.0\OOP_3_1.AssemblyInfoInputs.cache
+D:\BSTU\Программы\OOP_3_1\obj\Debug\net6.0\OOP_3_1.AssemblyInfo.cs
+D:\BSTU\Программы\OOP_3_1\obj\Debug\net6.0\OOP_3_1.csproj.CoreCompileInputs.cache
+D:\BSTU\Программы\OOP_3_1\bin\Debug\net6.0\OOP_3_1.exe
+D:\BSTU\Программы\OOP_3_1\bin\Debug\net6.0\OOP_3_1.deps.json
+D:\BSTU\Программы\OOP_3_1\bin\Debug\net6.0\OOP_3_1.runtimeconfig.json
+D:\BSTU\Программы\OOP_3_1\bin\Debug\net6.0\OOP_3_1.dll
+D:\BSTU\Программы\OOP_3_1\bin\Debug\net6.0\OOP_3_1.pdb
+D:\BSTU\Программы\OOP_3_1\obj\Debug\net6.0\OOP_3_1.dll
+D:\BSTU\Программы\OOP_3_1\obj\Debug\net6.0\refint\OOP_3_1.dll
+D:\BSTU\Программы\OOP_3_1\obj\Debug\net6.0\OOP_3_1.pdb
+D:\BSTU\Программы\OOP_3_1\obj\Debug\net6.0\OOP_3_1.genruntimeconfig.cache
+D:\BSTU\Программы\OOP_3_1\obj\Debug\net6.0\ref\OOP_3_1.dll
