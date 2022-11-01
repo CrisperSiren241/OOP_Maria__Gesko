@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BSTU\\Программы\\OOP_3_1\\OOP_3_1.csproj",
+      "projectUniqueName": "D:\\BSTU\\ООП\\OOP_3_1\\OOP_3_1.csproj",
       "projectName": "OOP_3_1",
-      "projectPath": "D:\\BSTU\\Программы\\OOP_3_1\\OOP_3_1.csproj",
+      "projectPath": "D:\\BSTU\\ООП\\OOP_3_1\\OOP_3_1.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\BSTU\\Программы\\OOP_3_1\\obj\\",
+      "outputPath": "D:\\BSTU\\ООП\\OOP_3_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

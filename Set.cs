@@ -9,7 +9,9 @@ namespace OOP_3_1
 {
     internal class Set<T> : IEnumerable<T>//создаем множество с типом последовательности, так как он на 1 месте иерархии множеств
     {
-        private List<T> _list = new List<T>();//создаем коллекцию данных
+        public List<T> _list = new List<T>();//создаем коллекцию данных
+
+        public static Set<T> set = new Set<T>();
 
         public int Count => _list.Count;//счетчик множеств
 
@@ -21,7 +23,45 @@ namespace OOP_3_1
             }
         }
 
-        public void Add(T item1)
+
+        public static Set<T> operator +(Set<T> set1, T item)//Перегрузка метода сложения. Ключевое слово operator говорит,
+        {//что мы хотим изменить бинарную операцию сложения
+            return set1.Add(item);
+        }
+
+        public static Set<T> operator -(Set<T> set1, T item)//Так как мы перегружаем бинарную операцию сложения, компилятор требует
+        {//также перегрузить и разницу, так как они взаимосвязаны
+            return set1.Remove(item);
+        }
+
+        public static bool operator !=(Set<T> set1, Set<T> set2)
+        {
+            bool result = false;
+            if (set1 == set2)
+            {
+                return result;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        public static bool operator ==(Set<T> set1, Set<T> set2)
+        {
+            bool result = false;
+            if (set1 == set2)
+            {
+                result = true;
+                return result;
+            }
+            else
+            {
+                return result;
+            }
+        }
+
+        public Set<T> Add(T item1)
         {
             if(item1 == null)//Проверка элемента на пустоту перед добавлением
             {
@@ -32,6 +72,8 @@ namespace OOP_3_1
             {
                 _list.Add(item1);//Так что если добавляемый элемент уже есть в множестве, то он игнорируется
             }
+
+            return set;
         }
 
         public void Add(T item1, T item2)
@@ -53,7 +95,7 @@ namespace OOP_3_1
             }
         }
 
-        public void Remove(T item1)
+        public Set<T> Remove(T item1)
         {   
             if(item1 == null)
             {
@@ -61,6 +103,7 @@ namespace OOP_3_1
             }
 
             _list.Remove(item1);
+            return set;
         }
 
         public void Remove(T item1, T item2)

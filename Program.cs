@@ -103,6 +103,7 @@ namespace OOP_3_1
             Console.WriteLine(set1.Minimal(set2, set3));
             Console.WriteLine("Порядок слов по возрастанию");
             Console.WriteLine(set1.Balance(set2, set3));
+            
         }
     }
 }
